@@ -7,13 +7,13 @@
 
 * I've managed to set up my repository to send data over to Google Analytics, and I've built a Python script that processes the data. Unfortunately, whenever I try to view the data I come up with the same error code. 
 
-'''
+'''python
 HttpError: <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned "User does not have sufficient permissions for this profile.". Details: "User does not have sufficient permissions for this profile."> 
 '''
 
 * I've quadruple checked the service account was created properly, added properly, and the privledges are correct. I will leave my code thus far in the meantime, with the following redacted for privacy. 
 
-'''
+'''python
 your_view_id = '####'
 ga_keys = 'user_key.json'
 ''' 
